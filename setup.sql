@@ -29,9 +29,9 @@ CREATE TABLE IF NOT EXISTS products (
 
 -- Insert Dummy Data Users
 INSERT INTO users (name, email, password) VALUES 
-('Riska Safitri', 'riska@mail.com', '123456'),
-('Josephine', 'josep@mail.com', 'abcdef'),
-('Moh. Ilham', 'ilham@mail.com', 'qwerty');
+('Roberto Ramadhan', 'roberto@mail.com', '$2a$10$UTsJEfWY0fqN0HTI859uf2QADWr9ry4g8w/t3/1fyZNZwj0nC2'),
+('Josephine', 'josep@mail.com', '$2a$10$UTsJEfWY0fqN0HTI859uf2QADWr9ry4g8w/t3/1fyZNZwj0nC2'),
+('Moh. Ilham', 'ilham@mail.com', '$2a$10$UTsJEfWY0fqN0HTI859uf2QADWr9ry4g8w/t3/1fyZNZwj0nC2');
 
 -- Insert Dummy Data Products (10 items)
 INSERT INTO products (nama, deskripsi, harga, foto) VALUES 
